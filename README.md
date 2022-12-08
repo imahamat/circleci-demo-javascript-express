@@ -38,15 +38,15 @@ MERN uses Webpack for bundling modules. There are four types of Webpack configs 
 
 The Webpack configuration is minimal and beginner-friendly. You can customise and add more features to it for production build.
 
-### Server
+### Server ###
 
-MERN uses express web framework. Our app sits in server.js where we check for NODE_ENV.
+MERN uses express web framework. Our app sits in server.js where we check for NODE_ENV
 
-If NODE_ENV is development, we apply Webpack middlewares for bundling and Hot Module Replacement.
+If NODE_ENV is development, we apply Webpack middlewares for bundling and Hot Module Replacement
 
 #### Server Side Rendering
 
-We use React Router's match function for handling all page requests so that browser history works.
+We use React Router's match function for handling all page requests so that browser history works
 
 All the routes are defined in `client/routes.js`. React Router renders components according to route requested.
 
